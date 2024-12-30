@@ -39,7 +39,7 @@ def caesar_cipher(text, letter_dislocator, number_dislocator):
     return output
     
 def descaesar_descipher(output, letter_dislocator, number_dislocator): # given the text and the dislocator numbers, we can uncrypt the message.
-    # the code is the same as the caesar_cifer one, but with logical changes to turn possible the uncryptation of the message
+    # the code is the same as the caesar_cipher()'s function one, but with logical changes to turn possible the uncryption of the message
     uncrypt_dict_lower = {}
     uncrypt_dict_upper = {}
     uncrypt_dict_numbers = {}
